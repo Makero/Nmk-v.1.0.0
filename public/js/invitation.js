@@ -26,4 +26,6 @@ $(function() {
         nthClasses: false,
         detectHash: true
     });
+
+    $("#write").MKtypewriter(60);
 });

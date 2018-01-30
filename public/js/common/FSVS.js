@@ -203,7 +203,7 @@
 					if( touches && touches.length ) {
 						startY = touches[0].pageY;
 					}
-					e.preventDefault();
+					//e.preventDefault();
 				}
 			});
 			$(window).on( "touchmove.fsvs", function(ev) {
