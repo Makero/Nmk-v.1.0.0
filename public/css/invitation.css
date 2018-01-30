@@ -1,0 +1,12 @@
+body:before {
+    content: ' ';
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background:#000 url(../images/bg.jpg) no-repeat center;
+    background-size: 100%;
+}
+.content{width:90%;height:60%;margin:30% auto;background:rgba(255, 255, 255, 0.3);text-align:center;}

@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+{% block title %}{{ title }}{% endblock %}
+{% block css %}
+<link type="text/css" rel="stylesheet" href="/css/common/animate.min.css"/>
+<link type="text/css" rel="stylesheet" href="/css/FSVS.css"/>
+<link type="text/css" rel="stylesheet" href="/css/invitation.css"/>
+{% endblock %}
+
+{% block body %}
+<div id="fsvs-body">
+    <div class="slide">
+        <div class="animated zoomInDown" data-animate="zoomInDown">
+            <img src="/images/inv-bg.png" width="100%"/>
+        </div>
+    </div>
+
+    <div class="slide">
+        <div class="content animated" data-animate="zoomInUp">
+        第一页
+
+        智能家居创业项目
+
+        招募小伙伴
+
+        1、技术开发3人
+        2、项目策划1人
+        3、运营1人
+        </div>
+    </div>
+    <div class="slide">
+        <div class="content animated" data-animate="zoomInLeft">
+        第二页
+
+        智能家居创业项目
+
+        招募小伙伴
+
+        1、技术开发3人
+        2、项目策划1人
+        3、运营1人
+        </div>
+    </div>
+    <div class="slide">
+        <div class="content animated" data-animate="zoomInRight">
+        第三页
+
+        智能家居创业项目
+
+        招募小伙伴
+
+        1、技术开发3人
+        2、项目策划1人
+        3、运营1人
+        </div>
+    </div>
+</div>
+
+<script src="/js/common/FSVS.js"></script>
+<script src="/js/invitation.js"></script>
+{% endblock %}
