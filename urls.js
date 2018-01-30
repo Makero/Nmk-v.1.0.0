@@ -1,4 +1,6 @@
 module.exports = {
-	'/' : './routes/index',
-	'/users': './routes/users'
+	'/' : './routes/index_route',
+	'/users': './routes/users_route',
+	'/photo': './routes/photo_route',
+	'/invitation': './routes/invitation_route'
 };
